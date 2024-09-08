@@ -1,0 +1,8 @@
+public class MyDeviceAdminReceiver extends DeviceAdminReceiver {
+    // ...
+
+    @Override
+    public void onProfileStateChanged(ComponentName admin, int user, int state, int reason) {
+        // Handle device lock/unlock based on payment status
+    }
+}
